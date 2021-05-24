@@ -41,4 +41,4 @@ python3 manage.py runserver [porta]
 
 Para começar a sua lista de clientes basta digitar a url **/person/list/**
 
-<p align="center"><img src="imagens/person-list.png"></p>
+<img src="imagens/person-list.png">
