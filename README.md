@@ -39,6 +39,14 @@ python3 manage.py runserver [porta]
 
 ## Cadastrando Clientes
 
-Para começar a sua lista de clientes basta digitar a url **/person/list/**
+Para começar a sua lista de clientes, basta digitar a url **/person/new/** e preencher as informações pedidas no formulário
+
+<p align="center"><img src="/projeto/imagens/person-new.png"></p>
+
+Quando o cadastro for salva, você será direcionado para a url **person/list/** e verá se o cliente cadastrado foi adicionado a lista
 
 <p align="center"><img src="/projeto/imagens/person-list.png"></p>
+
+Você também verá que pode deletar o cliente criado, ao clicar no botão "deletar", vocẽ será direcionado para a url **person/delete/id** e poderá confirmar se quer mesmo deletar o cliente
+
+<p align="center"><img src="/projeto/imagens/person-delete.png"></p>
