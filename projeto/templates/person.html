@@ -1,0 +1,12 @@
+<ul>
+  {% for person in persons %}
+  
+    <li>
+      <a href="{% url 'person_update' person.id %}">{{ person.first_name }}</a>
+      <a href="{% url 'person_delete' person.id %}"><button> Deletar</button></a>
+    </li>
+
+  {% endfor %}
+</ul>
+
+<a href="{% url 'person_new' %}"><button>Novo Cliente</button></a>
