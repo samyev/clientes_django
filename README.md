@@ -5,10 +5,10 @@ Esta é uma básica aplicação feita em django para cadastro de clientes, com e
 ## Requisitos 
 
 - Python 3.8.6
-- Pip 21.1.1 (pip3)
+- Pip3
 - Virtualenv 20.4.6
 - Django 3.2.3
-- Vscode 1.56.2
+- Vscode
 
 
 ## Como Utilizar
